@@ -12,11 +12,11 @@ var translateIt = async() => {
     if (userInputValue == ""){
         output.innerText = "I am groot?";
     }
-    else if (numberOfWords<=2){
+    else if (numberOfWords<=3){
         output.innerText = groot;
     }
     else{
-        for (var i=0; i<(numberOfWords/2); i++){
+        for (var i=0; i<(numberOfWords/3); i++){
             moreGroot += " I am groot.";
         }
         console.log(moreGroot)
